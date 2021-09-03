@@ -1,0 +1,23 @@
+.jumbotron {
+    padding: 7rem;
+    background-color: #D0DEE5;
+    font-family: Helvetica;
+    /*height: 200px;*/
+}
+
+/* .jumbotron h1{
+    font-family: Helvetica, Sans-Serif;
+} */
+
+
+#projects {
+	background-color: #D0DEE5;
+}
+
+#contact {
+	padding-bottom: 50px;
+}
+
+section {
+	padding-top: 5rem;
+}
