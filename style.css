@@ -1,23 +1,116 @@
-.jumbotron {
-    padding: 7rem;
-    background-color: #D0DEE5;
-    font-family: Helvetica;
-    /*height: 200px;*/
-}
-
-/* .jumbotron h1{
-    font-family: Helvetica, Sans-Serif;
-} */
-
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 #projects {
-	background-color: #D0DEE5;
+  background-color: #d0dee5;
 }
 
 #contact {
-	padding-bottom: 50px;
+  background-color: #d0dee5;
+  padding-bottom: 50px;
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(img/addresss.jpg);
+  background-size: cover;
 }
 
 section {
-	padding-top: 5rem;
+  padding-top: 5rem;
+}
+
+.carousel-item {
+  height: 40rem;
+  background: #000;
+  color: white;
+  position: relative;
+}
+.container-md {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
+}
+.container-md img {
+  height: 100px;
+}
+
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+h2 {
+  font-family: proxima nova;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+#contact .content p {
+  font-weight: 300;
+  color: #fff;
+}
+.box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+.icon {
+  min-width: 60px;
+  height: 60px;
+  color: black;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.container .contactInfo .box .text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 100;
+}
+
+.container .contactInfo .box .text h3 {
+  font-weight: 300;
+  color: #fff;
+}
+
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 80%;
+  width: 80%;
+  position: absolute;
+}
+
+.fa-instagram {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
