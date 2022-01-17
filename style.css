@@ -17,6 +17,7 @@
   flex-direction: column;
   background: url(img/addresss.jpg);
   background-size: cover;
+  height: auto;
 }
 
 section {
@@ -62,14 +63,13 @@ h2 {
   color: #fff;
 }
 .box {
-  position: relative;
-  padding: 20px 0;
+  /* position: relative; */
   display: flex;
 }
 
 .icon {
-  min-width: 60px;
-  height: 60px;
+  min-width: 40px;
+  height: 40px;
   color: black;
   background: #fff;
   display: flex;
@@ -82,7 +82,7 @@ h2 {
 .container .contactInfo .box .text {
   display: flex;
   margin-left: 20px;
-  font-size: 16px;
+  font-size: 1rem;
   color: #fff;
   flex-direction: column;
   font-weight: 100;
@@ -102,8 +102,8 @@ h2 {
 .map-container iframe {
   left: 0;
   top: 0;
-  height: 80%;
-  width: 80%;
+  height: 90%;
+  width: 90%;
   position: absolute;
 }
 
@@ -113,4 +113,8 @@ h2 {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+}
+
+.alert {
+  font-size: small;
 }
